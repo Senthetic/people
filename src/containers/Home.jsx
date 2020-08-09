@@ -4,6 +4,7 @@ class Home extends Component {
   state = {
       search: "",
     employees: Employees,
+    filteredEmployees: []
   };
 
   //   componentDidMount() {
